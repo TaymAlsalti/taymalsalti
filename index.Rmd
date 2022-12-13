@@ -1,0 +1,21 @@
+---
+title: "Taym Alsalti"
+description: |
+  -
+site: distill::distill_website
+exclude:
+- '*.rda'
+- '*.pdf'
+- '*.dta'
+- '*.csv'
+- '*.csl'
+- '*.bibtex'
+- '*.docx'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## ss
+
