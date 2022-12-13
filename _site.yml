@@ -1,0 +1,38 @@
+name: MRP_norming
+output_dir: docs
+navbar:
+  title: MRP Norming
+  left:
+  - text: MRP trial run
+    href: MRP_trial_run.html
+
+  right:
+  - text: ''
+    icon: fa-github
+    href: https://github.com/TaymAlsalti/MRP_norming
+output:
+  html_document:
+    theme: paper
+    toc: yes
+    toc_float: yes
+    code_folding: show
+    df_print: tibble
+    code_download: yes
+    highlight: zenburn
+    self_contained: no
+exclude:
+- packrat
+- '*.rda'
+- '*.pdf'
+- '*.dta'
+- '*.csv'
+- geo
+- item_tables
+- '*.csl'
+- '*.bibtex'
+- '*.xlsx'
+- data
+- "renv"
+- '*.rds'
+- models
+- plots
